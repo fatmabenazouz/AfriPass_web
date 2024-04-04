@@ -15,7 +15,6 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-    text-transform: capitalize;
     transition: all .2s ease-out;
     text-decoration: none;
 }
@@ -40,14 +39,12 @@ section:nth-child(even) {
     text-align: center;
     padding-bottom: 3rem;
     text-shadow: var(--text-shadow);
-    text-transform: uppercase;
     color: var(--black);
     font-size: 5rem;
     letter-spacing: .4rem;
 }
 
 .heading span {
-    text-transform: uppercase;
     color: var(--green);
 }
 
@@ -204,9 +201,9 @@ section:nth-child(even) {
     color: var(--light-color);
 }
 
-/*-----SERVICES------*/
+/*-----STYLES------*/
 
-.services .box-container {
+.styles .box-container {
 
     display: grid;
     gap: 2rem;
@@ -214,7 +211,7 @@ section:nth-child(even) {
     gap: 2rem;
 }
 
-.services .box-container .box {
+.styles .box-container .box {
     background: #fff;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -222,19 +219,19 @@ section:nth-child(even) {
     padding: 2.5rem;
 }
 
-.services .box-container .box i {
+.styles .box-container .box i {
     color: var(--black);
     font-size: 5rem;
     padding-bottom: .5rem;
 }
 
-.services .box-container .box h3 {
+.styles .box-container .box h3 {
     color: var(--black);
     font-size: 4rem;
     padding: 1rem 0;
 }
 
-.services .box-container .box p {
+.styles .box-container .box p {
     color: var(--black);
     font-size: 1.3rem;
     line-height: 2;
@@ -278,15 +275,15 @@ section:nth-child(even) {
     margin-left: 1rem;
 }
 
-/*----DOCTORS-----*/
+/*----EXPERTS-----*/
 
-.doctors .box-container {
+.experts .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap: 1rem;
 }
 
-.doctors .box-container .box {
+.experts .box-container .box {
     text-align: center;
     background: #fff;
     border-radius: .5rem;
@@ -296,7 +293,7 @@ section:nth-child(even) {
 
 }
 
-.doctors .box-container .box img {
+.experts .box-container .box img {
     height: 20rem;
     border: var(--border);
     border-radius: .5rem;
@@ -304,21 +301,21 @@ section:nth-child(even) {
     margin-bottom: 1rem;
 }
 
-.doctors .box-container .box h3 {
+.experts .box-container .box h3 {
     color: var(--black);
     font-size: 2.5rem;
 }
 
-.doctors .box-container .box span {
+.experts .box-container .box span {
     color: var(--green);
     font-size: 1.5rem;
 }
 
-.doctors .box-container .box .share {
+.experts .box-container .box .share {
     padding-top: 2rem;
 }
 
-.doctors .box-container .box .share a {
+.experts .box-container .box .share a {
     height: 5rem;
     width: 5rem;
     line-height: 4.5rem;
@@ -329,7 +326,7 @@ section:nth-child(even) {
     margin: .3rem;
 }
 
-.doctors .box-container .box a:hover {
+.experts .box-container .box a:hover {
     background: var(--green);
     color: #fff;
     box-shadow: var(--box-shadow);
@@ -448,58 +445,58 @@ section:nth-child(even) {
 
 /*---BLOG SECTION----*/
 
-.blog .box-container {
+.blogs .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 2rem;
 }
 
-.blog .box-container .box {
+.blogs .box-container .box {
     border: var(--border);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 2rem;
 }
 
-.blog .box-container .box .image {
+.blogs .box-container .box .image {
     height: 20rem;
     overflow: hidden;
     border-radius: .5rem;
 }
 
-.blog .box-container .box .image img {
+.blogs .box-container .box .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.blog .box-container .box:hover .image img {
+.blogs .box-container .box:hover .image img {
 
     transform: scale(1.2);
 
 }
 
-.blog .box-container .box .content {
+.blogs .box-container .box .content {
     padding-top: 1rem;
 }
 
-.blog .box-container .box .content .icon {
+.blogs .box-container .box .content .icon {
     padding: 1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.blog .box-container .box .content .icon a {
+.blogs .box-container .box .content .icon a {
     font-size: 1.4rem;
     color: var(--light-color);
 }
 
-.blog .box-container .box .content .icon a:hover {
+.blogs .box-container .box .content .icon a:hover {
     color: var(--green);
 }
 
-.blog .box-container .box .content .icon a i {
+.blogs .box-container .box .content .icon a i {
     padding-right: .5rem;
     color: var(--green);
 }
@@ -509,7 +506,7 @@ section:nth-child(even) {
     font-size: 3rem;
 }
 
-.blog .box-container .box .content p {
+.blogs .box-container .box .content p {
     color: var(--light-color);
     font-size: 1.5rem;
     line-height: 1.8;
