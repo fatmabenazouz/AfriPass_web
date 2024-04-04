@@ -94,7 +94,7 @@ section:nth-child(even) {
     background: #fff;
 }
 
-/*logo settings*/
+/* logo settings */
 
 .header .logo i {
     font-size: 3.5rem;
@@ -123,7 +123,7 @@ section:nth-child(even) {
     display: none;
 }
 
-/*-----HOME------*/
+/* home */
 
 
 .home {
@@ -164,7 +164,7 @@ section:nth-child(even) {
 
 }
 
-/*-----ICONS------*/
+/* icons */
 
 .icons-container {
     display: grid;
@@ -201,7 +201,7 @@ section:nth-child(even) {
     color: var(--light-color);
 }
 
-/*-----STYLES------*/
+/* styles */
 
 .styles .box-container {
 
@@ -237,7 +237,7 @@ section:nth-child(even) {
     line-height: 2;
 }
 
-/*---ABOUT--SECTION---*/
+/* about us */
 
 .about .row {
     display: flex;
@@ -275,7 +275,7 @@ section:nth-child(even) {
     margin-left: 1rem;
 }
 
-/*----EXPERTS-----*/
+/* experts */
 
 .experts .box-container {
     display: grid;
@@ -332,7 +332,7 @@ section:nth-child(even) {
     box-shadow: var(--box-shadow);
 }
 
-/*---BOOK SECTION--*/
+/* booking */
 
 .book .row {
     display: flex;
@@ -383,7 +383,7 @@ section:nth-child(even) {
 }
 
 
-/*---REVIEW SECTION----*/
+/* reviews */
 
 .review .box-container {
     display: grid;
@@ -443,7 +443,7 @@ section:nth-child(even) {
     z-index: -1;
 }
 
-/*---BLOG SECTION----*/
+/* blogs */
 
 .blogs .box-container {
     display: grid;
@@ -514,7 +514,7 @@ section:nth-child(even) {
 }
 
 
-/*----FOOTER SECTION----*/
+/* footer */
 
 .footer .box-container {
     display: grid;
@@ -560,7 +560,7 @@ section:nth-child(even) {
 }
 
 
-/* Media Queries */
+/* media queries for responsiveness */
 
 
 @media(max-width: 991px) {
@@ -599,10 +599,6 @@ section:nth-child(even) {
         opacity: 0;
         transform-origin: top right;
         transition: none;
-
-        /*FIX THE TOGGLE BUTTON!!!*/
-
-
     }
 
     .header .navbar .active {
